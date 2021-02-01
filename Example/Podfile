@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MSCommon_Example' do
+  pod 'MSCommon', :path => '../'
+
+  target 'MSCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
